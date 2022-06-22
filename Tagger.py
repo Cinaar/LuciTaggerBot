@@ -27,7 +27,7 @@ async def start(event):
   await event.reply("**🌀LuciTaggerBot**\n ile Grubunuzdakı Nerdeyse Tüm Üyelere Etiket Ata bilirim \nKomutlar için =======> /help yazın**",
                     buttons=(
                    
-		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+		      [Button.url('Beni Gruba Ekle ➕', 'https://t.me/lctaggerbot?startgroup=a')],
                       [Button.url('Support🛠', 'https://t.me/lordchattt')],
                       [Button.url('Resmi Kanal📣', 'https://t.me/cinoomusic')],
 		      [Button.url('Developer👨🏻‍💻', 'https://t.me/nevarisoyumiste')],
@@ -39,7 +39,7 @@ async def help(event):
   helptext = "**🌀 LuciTaggerBot Komutları**\n\n**/tag <sebeb> - 5-li Etiket Atar**\n\n**/etag <sebeb> - Emoji ile etiketler**\n\n**/tektag sebeb - Üyeleri Tek Tek Etiketler**\n\n**/admins sebeb - Yöneticileri Tek Tek Tag Eder**\n\n**/start - botu başlatır**"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/lucitaggerbot?startgroup=a')],
+                      [Button.url('Beni Gruba Ekle➕', 'https://t.me/lctaggerbot?startgroup=a')],
                       [Button.url('Support👨‍💻', 'https://t.me/lordchattt')],
                       [Button.url('Resmi Kanal🔖', 'https://t.me/cinoomusic')],
 		      [Button.url('Developer🧑‍🔧', 'https://t.me/nevarisoyumiste')],
